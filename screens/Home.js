@@ -8,7 +8,7 @@ export default function Home() {
     console.log(isDarkMode)
     return(
         <View style={[Styles.container,isDarkMode ? Styles.dark : Styles.light]}>
-            <Text style={isDarkMode ? Styles.dark : Styles.light}>Home</Text>
+            <Text style={isDarkMode ? Styles.dark : Styles.light}>Dark mode testing</Text>
         </View>
     )
 }
